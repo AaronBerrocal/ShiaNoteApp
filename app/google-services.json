@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "295797755935",
+    "firebase_url": "https://shianoteapp.firebaseio.com",
+    "project_id": "shianoteapp",
+    "storage_bucket": "shianoteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295797755935:android:d7e2274c79a6323b",
+        "android_client_info": {
+          "package_name": "com.example.aleph5.shianoteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295797755935-4l35p3tji6loqb2bro6er7825pp64855.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aleph5.shianoteapp",
+            "certificate_hash": "1a3621cd22c9ca097e6153d238d9dd0fd1828574"
+          }
+        },
+        {
+          "client_id": "295797755935-gi62vk7448rgv3mp56ua2jc2di5b7bvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWzB17jIZsZpCOM7v-TJCXhmD5nJZIwkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295797755935-gi62vk7448rgv3mp56ua2jc2di5b7bvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

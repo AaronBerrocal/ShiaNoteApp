@@ -26,6 +26,9 @@ public class ShiaNoteActivity extends AppCompatActivity implements RealmChangeLi
     private int boardId;
     private Board board;
 
+    //MODIFICATION ALERT
+    private  String enterDescription;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +38,9 @@ public class ShiaNoteActivity extends AppCompatActivity implements RealmChangeLi
 
         if(getIntent().getExtras() != null){
             boardId = getIntent().getExtras().getInt("id");
+            //MODIFICATION ALERT
+            enterDescription = getIntent().getExtras().getString("description");
+            //
         }
 
         board = realm.where(Board.class).equalTo("id", boardId).findFirst();
@@ -48,6 +54,10 @@ public class ShiaNoteActivity extends AppCompatActivity implements RealmChangeLi
         listView.setAdapter(adapter);
 
         //FAB LOGIC HERE
+
+        if(notes.size() < 1){
+            createNewNote(enterDescription);
+        }
 
     }
 

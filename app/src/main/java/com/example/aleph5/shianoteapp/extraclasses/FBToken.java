@@ -2,7 +2,10 @@ package com.example.aleph5.shianoteapp.extraclasses;
 
 import android.util.Log;
 
-public class FirebaseToken extends FirebaseInstanceIdService {
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.FirebaseInstanceIdService;
+
+public class FBToken extends FirebaseInstanceIdService {
     private static final String TAG3 = "FirebaseIDService";
 
     @Override
